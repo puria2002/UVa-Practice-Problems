@@ -1,4 +1,4 @@
-//solution to UVa 514: Rails
+//solution to UVa 11572: Unique Snowflakes
 #include<stdio.h>
 #include<map>
 #include<algorithm>
