@@ -52,6 +52,7 @@ int main()
         cin >> n >> k;
         adj = vector<vector<int>> (n); 
         colors = bitset<100>();
+        //process as adjacency list for quick lookup
         while (k--)
         {
             cin >> i >> j;
