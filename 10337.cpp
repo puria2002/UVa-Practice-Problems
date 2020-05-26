@@ -58,7 +58,7 @@ int main()
     {
         memo.clear(); 
         cin >> X;
-        arr = new int[10 * (X / 100)]; //(i, j) becomes (10 * i + j) for row, col
+        arr = new int[10 * (X / 100)]; //(i, j) becomes ((X / 100) * i + j) for row, col
         for (int i = 9; i >=0; i--)
         {
             for (int j = 0; j < X / 100; j++)
