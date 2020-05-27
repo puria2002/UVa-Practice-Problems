@@ -1,4 +1,4 @@
-//solution for UVa 11988
+//solution for UVa 11988: Broken Keyboard
 #include<iostream>
 #include<list>
 using namespace std;
