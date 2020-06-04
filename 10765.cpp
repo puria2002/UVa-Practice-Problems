@@ -60,7 +60,7 @@ void articulation(const vector<vector<int>>& adj, set<target, greater<target>>& 
             reach[v] = min(reach[v], reach[i]);
 
         }
-        else //taking a back edge 
+        else 
         {
             reach[v] = min(reach[v], label[i]);
         }
